@@ -1,4 +1,4 @@
-FROM golang:1.13.4-alpine as build
+FROM golang:1.13.5-alpine3.11 as build
 RUN mkdir -p /go/src/github.com/aosapps/drone-sonar-plugin
 WORKDIR /go/src/github.com/aosapps/drone-sonar-plugin 
 COPY *.go ./
