@@ -11,7 +11,7 @@ ARG SONAR_VERSION=4.2.0.1873
 ARG SONAR_SCANNER_CLI=sonar-scanner-cli-${SONAR_VERSION}
 ARG SONAR_SCANNER=sonar-scanner-${SONAR_VERSION}
 
-RUN apk add --no-cache --update nodejs curl
+RUN apk add --no-cache --update nodejs curl shellcheck
 COPY --from=build /go/src/github.com/aosapps/drone-sonar-plugin/drone-sonar /bin/
 WORKDIR /bin
 
