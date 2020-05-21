@@ -1,4 +1,4 @@
-**Note:** This version adds shellcheck executable to analyse shell scripts. If you don't need shellcheck, use the default image
+**Note:** This version adds shellcheck executable to analyse shell scripts. If you don't need shellcheck, use the default image (https://github.com/aosapps/drone-sonar-plugin).
 
 # drone-sonar-plugin
 The plugin of Drone CI to integrate with SonarQube (previously called Sonar), which is an open source code quality management platform.
