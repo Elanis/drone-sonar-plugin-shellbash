@@ -1,3 +1,5 @@
+**Note:** This version adds shellbash executable to analyse shell scripts. If you don't need shellbash, use the default image
+
 # drone-sonar-plugin
 The plugin of Drone CI to integrate with SonarQube (previously called Sonar), which is an open source code quality management platform.
 
